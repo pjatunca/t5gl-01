@@ -100,7 +100,7 @@ public class FrmLogin extends JFrame {
 		String usuario = leerUsuario();
 		String clave = txtClave.getText();
 		
-		// validaciones
+		// validaciones4
 		if (usuario == null || clave == null) {
 			return;
 		}
